@@ -1,0 +1,15 @@
+#features {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  padding: 120px 0;
+  width: 1440px;
+  background: #fff;
+}
+#features ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}

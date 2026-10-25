@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Josefin Sans", sans-serif;
+  --third-family: "Instrument Sans", sans-serif;
+  --font3: "Inter", sans-serif;
+  --font4: "Jaini", sans-serif;
+  --font5: "Jaini Purva", sans-serif;
+  --font6: "Raleway", sans-serif;
+  --font7: "Jaro", sans-serif;
+  --font8: "Jomhuria", sans-serif;
+  --font9: "jsMath-cmmi10", sans-serif;
+}
+
+body,
+button,
+input,
+textarea,
+select,
+a {
+  font-family: var(--font-family);
+}

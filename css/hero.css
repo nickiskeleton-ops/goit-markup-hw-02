@@ -1,0 +1,31 @@
+#hero {
+  background-color: #2e2f42; /* Тёмно-синий фон секции */
+  padding: 188px 0; /* Большие отступы сверху и снизу */
+  text-align: center; /* Центрирует текст и кнопку */
+}
+
+#hero h1 {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  max-width: 496px; /* Ограничиваем ширину, чтобы текст переносился как в Figma */
+  margin: 0 auto 48px auto; /* Центрируем блок (auto слева/справа) и делаем отступ снизу до кнопки (48px) */
+}
+
+#hero button {
+  background-color: #4d5ae5; /* Фирменный синий цвет кнопки */
+  color: #ffffff; /* Белый текст */
+  font-family: inherit; /* Наследует шрифт страницы */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer; /* Пальчик при наведении */
+  border: none; /* Убираем уродливую браузерную рамку */
+  border-radius: 4px; /* Скругление углов */
+  padding: 16px 32px; /* Внутренние отступы, чтобы кнопка была пухлой */
+  display: block; /* Делаем блочной */
+  margin: 0 auto; /* Выравниваем кнопку строго по центру */
+}
