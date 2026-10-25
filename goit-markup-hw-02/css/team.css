@@ -1,0 +1,28 @@
+#team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0;
+  padding: 120px 0;
+  width: 1440px;
+  height: 732px;
+  background: #f4f4fd;
+}
+#team ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+#team li {
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+#team {
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+#footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0;
+  padding: 100px 0;
+  width: 1440px;
+  height: 312px;
+  background: #2e2f42 !important;
+}
+
+#footer > a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+#footer > a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd !important; /* Делаем всю ссылку белой (Studio будет белой) */
+}
+
+#footer > a {
+  color: #4d5ae5 !important; /* Делаем весь логотип синим, а Studio перекрасим ниже, если получится */
+}
+
+/* Текст под логотипом: белый и ровно на 3 строчки (ширина 264px) */
+#footer p,
+#footer .footer-text {
+  color: #f4f4fd !important;
+  margin-top: 16px;
+  width: 264px !important;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}

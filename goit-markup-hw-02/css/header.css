@@ -1,0 +1,54 @@
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  height: 72px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+/* Логотип WebStudio */
+#header > a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+
+/* Навігація */
+#header nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Список пунктів меню в ряд */
+#header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Блок контактів праворуч */
+#header address {
+  font-style: normal;
+}
+
+#header address ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Прибираємо підкреслення у всіх посилань у шапці */
+#header a {
+  text-decoration: none;
+}
