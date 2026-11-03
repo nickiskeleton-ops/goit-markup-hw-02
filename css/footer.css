@@ -1,0 +1,32 @@
+/* Основний блок футера */
+#footer {
+  background-color: #2e2f42;
+  padding: 100px 0; /* стандартний відступ футера за макетом */
+}
+
+/* Логотип у футері */
+#footer .logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+#footer .logo-accent {
+  color: #f4f4fd; /* Світлий колір для Studio у футері */
+}
+
+/* Текст під логотипом */
+#footer p {
+  color: #f4f4fd;
+  margin: 0;
+  max-width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}

@@ -1,0 +1,38 @@
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+/* Логотип WebStudio */
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.logo-accent {
+  color: #2e2f42; /* Темний колір для Studio в шапці */
+}
+
+/* Навігація */
+.header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Блок контактів праворуч */
+.header address {
+  font-style: normal;
+}
+
+/* Прибираємо підкреслення у всіх посилань у шапці */
+.header a {
+  text-decoration: none;
+}
